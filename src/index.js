@@ -11,7 +11,7 @@ app.use(
 );
 
 app.get('/', function(req, res) {
-    res.send({Autora:"Autora: Daniela Karina Ruiz Hernández"});
+    res.send("<h1>Autora: Daniela Karina Ruiz Hernández</h1>");
 });
 
 app.post('/', function(req, res) {
