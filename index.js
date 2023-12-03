@@ -15,3 +15,5 @@ app.post('/', function(req, res) {
 const server = app.listen(4000, () => {
     console.log("Servidor corriendo en el puerto 4000");
 });
+
+module.exports = app;
